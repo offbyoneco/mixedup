@@ -1,0 +1,3 @@
+/Users/Alex/Documents/mixedup/mixed_up_0_0_1/Source/mixed_up_0_0_1/mixed_up_0_0_1.Build.cs
+/Users/Alex/Documents/mixedup/mixed_up_0_0_1/Source/mixed_up_0_0_1.Target.cs
+/Users/Alex/Documents/mixedup/mixed_up_0_0_1/Source/mixed_up_0_0_1Editor.Target.cs
