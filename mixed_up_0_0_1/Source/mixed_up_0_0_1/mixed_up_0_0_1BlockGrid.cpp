@@ -29,12 +29,13 @@ Amixed_up_0_0_1BlockGrid::Amixed_up_0_0_1BlockGrid()
 void Amixed_up_0_0_1BlockGrid::BeginPlay()
 {
 	Super::BeginPlay();
-
+    
 	// Number of blocks
 	const int32 NumBlocks = Size * Size;
 
 	// Loop to spawn each block
-	for(int32 BlockIndex=0; BlockIndex<NumBlocks; BlockIndex++)
+    
+	for(int32 BlockIndex=0; BlockIndex<NumBlocks/**/; BlockIndex++)
 	{
 		const float XOffset = (BlockIndex/Size) * BlockSpacing; // Divide by dimension
 		const float YOffset = (BlockIndex%Size) * BlockSpacing; // Modulo gives remainder
@@ -51,6 +52,7 @@ void Amixed_up_0_0_1BlockGrid::BeginPlay()
 			NewBlock->OwningGrid = this;
 		}
 	}
+    
 }
 
 
