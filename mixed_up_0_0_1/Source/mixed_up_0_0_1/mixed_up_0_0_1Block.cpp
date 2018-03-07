@@ -59,6 +59,7 @@ void Amixed_up_0_0_1Block::OnFingerPressedBlock(ETouchIndex::Type FingerIndex, U
 
 void Amixed_up_0_0_1Block::HandleClicked()
 {
+    /*
 	// Check we are not already active
 	if (!bIsActive)
 	{
@@ -73,10 +74,14 @@ void Amixed_up_0_0_1Block::HandleClicked()
 			OwningGrid->AddScore();
 		}
 	}
+    
+    
+    */
 }
 
 void Amixed_up_0_0_1Block::Highlight(bool bOn)
 {
+    /*
 	// Do not highlight if the block has already been activated.
 	if (bIsActive)
 	{
@@ -91,4 +96,5 @@ void Amixed_up_0_0_1Block::Highlight(bool bOn)
 	{
 		BlockMesh->SetMaterial(0, BlueMaterial);
 	}
+     */
 }
